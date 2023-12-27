@@ -13,7 +13,7 @@ https://www.cookiecutter.io/
 
 **git chache**
 to clear git chache
-git rm-r-cached .
+git rm -r -cached .
 
 **git environments**
 working
@@ -39,9 +39,28 @@ commit every file which is in staging
 
 git log
 shows every information about commits
+git log --oneline
 
 git status
 shows all files which are in diff with main
 
 git restore
 restores all changes in file in diff with main
+
+git rm
+remove a file and directly push to staging
+
+git mv
+move or rename file and push directly to staging
+
+git diff
+shows all diff to last commit
+
+git commit --amend
+allows you to make changes to the most recent commit in your repository without creating additional commits
+
+git reset
+returns to specific commit hash
+
+git rebase
+
