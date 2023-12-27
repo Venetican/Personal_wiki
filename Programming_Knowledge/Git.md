@@ -63,4 +63,21 @@ git reset
 returns to specific commit hash
 
 git rebase
+allows you to completely rewrite the history
+
+git fetch
+to update your local repository with changes from a remote repository, 
+but without merging those changes into your local branches.
+git fetch --prune
+
+git stash
+temporarily shelves (or stashes) changes you've made to your working directory, allowing you to work on something else, and then come back and re-apply them later on
+git stash list - to get all stashes
+git stash apply - last stashed saved - git stash apply stash@{n}
+git stash pop - apply most recent stash and then remove it from list
+
+git clean
+git clean -n - dry run
+git clean -d - directories
+git clean -f - force
 
