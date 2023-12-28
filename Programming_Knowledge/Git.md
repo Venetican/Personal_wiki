@@ -79,5 +79,5 @@ git stash pop - apply most recent stash and then remove it from list
 git clean
 git clean -n - dry run
 git clean -d - directories
-git clean -f - force
+git clean -f - force ..
 
